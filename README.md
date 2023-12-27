@@ -1,5 +1,6 @@
 # FASDD: An Open-access 100,000-level Flame And Smoke Detection Dataset for Deep Learning in Fire Detection	
 FASDD is a largest and most generalized Flame And Smoke Detection Dataset for object detection tasks, characterized by the utmost complexity in fire scenes, the highest heterogeneity in feature distribution, and the most significant variations in image size and shape. FASDD serves as a benchmark for developing advanced fire detection models, which can be deployed on watchtowers, drones, or satellites in a space-air-ground integrated observation network for collaborative fire warning. This endeavor provides valuable insights for government decision-making and fire rescue operations. 
+
 [Ming Wang*](https://github.com/OyamingO), Peng Yue, Liangcun Jiang, Dayu Yu, Tianyu Tuo
 
 [[`Paper`](https://doi.org/10.57760/sciencedb.j00104.00103)] [[`Project`](https://github.com/OyamingO/Fire-And-Smoke-Detection-Dataset)] [[`Dataset`](https://doi.org/10.57760/sciencedb.j00104.00103)]  [[`BibTeX`](#Citing-FASDD)]
