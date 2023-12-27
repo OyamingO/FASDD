@@ -3,7 +3,7 @@ FASDD is a largest and most generalized Flame And Smoke Detection Dataset for ob
 
 [Ming Wang*](https://github.com/OyamingO), Peng Yue, Liangcun Jiang, Dayu Yu, Tianyu Tuo
 
-[[`Paper`](https://doi.org/10.57760/sciencedb.j00104.00103)] [[`Project`](https://github.com/OyamingO/Fire-And-Smoke-Detection-Dataset)] [[`Dataset`](https://doi.org/10.57760/sciencedb.j00104.00103)]  [[`BibTeX`](#Citing-FASDD)]
+[[`Paper`](https://doi.org/10.57760/sciencedb.j00104.00103)] [[`Project`](https://github.com/OyamingO/Fire-And-Smoke-Detection-Dataset)] [[`Dataset`](https://doi.org/10.57760/sciencedb.j00104.00103)] [[`BibTeX`](#Citing-FASDD)]
 
 
 ### 🔥: FASDD example
@@ -16,6 +16,8 @@ FASDD is a largest and most generalized Flame And Smoke Detection Dataset for ob
 <img src="assets/workflow.png?raw=true" width="88%" />
 
 ## Installation
+No custom code was developed for this work. However, to replicate the technical validation results, the Swin Transformer source code is available at: https://github.com/SwinTransformer/Swin-Transformer-Object-Detection. The following steps can be referred to for configuring the operating environment of the Swin Transformer model.
+
 Step 1. Create a conda environment and activate it.
 conda create --name openmmlab python=3.8 -y
 conda activate openmmlab
@@ -40,7 +42,7 @@ The following optional dependencies are necessary for mask post-processing, savi
 pip install opencv-python pycocotools matplotlib
 ```
 
-## Citing-FASDD
+## Citing FASDD
 
 If you use FASDD in your research, please use the following BibTeX entry.
 
