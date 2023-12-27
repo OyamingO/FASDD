@@ -7,13 +7,13 @@ FASDD is a largest and most generalized Flame And Smoke Detection Dataset for ob
 
 
 ### 🔥: FASDD example
-<img src="assets/example.png?raw=true" width="66%" />
+<img src="assets/example.png?raw=true" width="88%" />
 
 ### 🚀: FASDD source
-<img src="assets/source.png?raw=true" width="66%" />
+<img src="assets/source.png?raw=true" width="88%" />
 
 ### 🚀: FASDD workflow
-<img src="assets/workflow.png?raw=true" width="66%" />
+<img src="assets/workflow.png?raw=true" width="88%" />
 
 ## Installation
 Step 1. Create a conda environment and activate it.
