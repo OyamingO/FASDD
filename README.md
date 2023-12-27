@@ -1,9 +1,15 @@
 # FASDD: An Open-access 100,000-level Flame And Smoke Detection Dataset for Deep Learning in Fire Detection	
-FASDD is a largest and most generalized Flame And Smoke Detection Dataset for object detection tasks, characterized by the utmost complexity in fire scenes, the highest heterogeneity in feature distribution, and the most significant variations in image size and shape. FASDD serves as a benchmark for developing advanced fire detection models, which can be deployed on watchtowers, drones, or satellites in a space-air-ground integrated observation network for collaborative fire warning. This endeavor provides valuable insights for government decision-making and fire rescue operations. 
 
 [Ming Wang*](https://github.com/OyamingO), Peng Yue, Liangcun Jiang, Dayu Yu, Tianyu Tuo
 
 [[`Paper`](https://doi.org/10.57760/sciencedb.j00104.00103)] [[`Project`](https://github.com/OyamingO/Fire-And-Smoke-Detection-Dataset)] [[`Dataset`](https://doi.org/10.57760/sciencedb.j00104.00103)] [[`BibTeX`](#Citing-FASDD)]
+
+FASDD is a largest and most generalized Flame And Smoke Detection Dataset for object detection tasks, characterized by the utmost complexity in fire scenes, the highest heterogeneity in feature distribution, and the most significant variations in image size and shape. FASDD serves as a benchmark for developing advanced fire detection models, which can be deployed on watchtowers, drones, or satellites in a space-air-ground integrated observation network for collaborative fire warning. This endeavor provides valuable insights for government decision-making and fire rescue operations. 
+
+FASDD can be accessed freely from the Science Data Bank website at https://doi.org/10.57760/sciencedb.j00104.0010340. FASDD is provided in three compressed files: FASDD_CV.zip, FASDD_UAV.zip, and FASDD_RS.zip, which correspond to the CV dataset, the UAV dataset, and the RS dataset, respectively. Additionally, there is a FASDD_RS_SWIR. zip folder storing pseudo-color images for detecting flame objects in remote sensing imagery. Each zip file contains two folders: "images" for storing the source data and "annotations" for storing the labels. The "annotations" folder consists of label files in four formats: YOLO, VOC, COCO, and TDML. The dataset is divided randomly into training, validation, and test sets, with a ratio of 1/2, 1/3, and 1/6, respectively, within each label format. In FASDD_CV, FASDD_UAV, and FASDD_RS, images and their corresponding annotation files have been individually sorted starting from 0. The flame and smoke objects in FASDD are given the labels "fire" and "smoke" for the object detection task, respectively. The names of all images and annotation files are prefixed with "Fire", "Smoke", "FireAndSmoke", and "NeitherFireNorSmoke", representing different categories for scene classification tasks.
+
+
+
 
 
 ### 🔥: FASDD example
