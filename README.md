@@ -1,8 +1,8 @@
-# FASDD: An Open-access 100,000-level Flame And Smoke Detection Dataset for Deep Learning in Fire Detection	
+# An Open Flame and Smoke Detection Dataset for Deep Learning in Remote Sensing Based Fire Detection	
 
 [Ming Wang](https://github.com/OyamingO), Peng Yue*, Liangcun Jiang*, Dayu Yu, Tianyu Tuo, Jian Li
 
-[[`Paper`](https://doi.org/10.57760/sciencedb.j00104.00103)] [[`Project`](https://github.com/OyamingO/Fire-And-Smoke-Detection-Dataset)] [[`Dataset`](https://doi.org/10.57760/sciencedb.j00104.00103)] [[`BibTeX`](#Citing-FASDD)]
+[[`Paper`](https://doi.org/10.1080/10095020.2024.2347922)] [[`Project`](https://github.com/OyamingO/Fire-And-Smoke-Detection-Dataset)] [[`Dataset`](https://doi.org/10.57760/sciencedb.j00104.00103)] [[`BibTeX`](#Citing-FASDD)]
 
 ### 🔥: FASDD example
 <img src="assets/example.png?raw=true" width="88%" />
@@ -45,10 +45,10 @@ pip install opencv-python pycocotools matplotlib
 If you use FASDD in your research, please use the following BibTeX entry.
 
 ```
-@article{FASDD,
-  title={FASDD: An Open-access 100,000-level Flame And Smoke Detection Dataset for Deep Learning in Fire Detection},
+@article{
+  title={An Open Flame and Smoke Detection Dataset for Deep Learning in Remote Sensing Based Fire Detection},
   author={Ming Wang, Peng Yue, Liangcun Jiang, Dayu Yu, Tianyu Tuo, Jian Li},
-  journal={Scientific Data},
+  journal={Geo-spatial Information Science},
   year={2024}
 }
 
